@@ -1,18 +1,18 @@
 *,
 *::after,
-*::before{
+*::before {
     padding: 0;
     margin: 0;
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #000;
     font-size: 20px;
+    color: #000;
 }
 
 ul {
@@ -26,39 +26,38 @@ a {
 
 header {
     min-width: 1000px;
-    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237,164,24,0) 100%);
 }
 
 .container {
-    max-width: 1600px;
-    max-height: 900px;
-    min-width: inherit;
     margin: 0 auto;
+    max-width: 1600px;
+    min-width: inherit;
+    max-height: 900px;
 }
-
-
 
 .nav_menu {
     display: flex;   
-    max-width: inherit;
+    justify-content: space-between;
     padding-left: 130px;
     padding-right: 298px;
-    justify-content: space-between;
+    max-width: inherit;
     
 }
 
 .logo {
     display: flex;
-    margin-top: 105px;
     align-items: center;
+    margin-top: 105px;
 }
 
 .nav_menu_list {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 90px;
     width: 60%; 
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav_menu_item {
@@ -70,19 +69,18 @@ header {
 
 .nav_menu_link {
     font-size: 25px;
-    line-height: 24px;
     font-weight: 500;
+    line-height: 24px;
 }
 
 .nav_menu_button {
     border: none;
+
     background-color: transparent;
     cursor: pointer;
 }
 
-
-
-.nav_menu_link#link1{
+.nav_menu_link#link1 {
     font-weight: 700;
 }
 
@@ -92,37 +90,41 @@ header {
 
 .header_inner {
     display: flex;
-    max-width: inherit;
-    padding-left: 130px;
-    padding-right: 217px;
     align-items: center;
     justify-content: space-between;
+    padding-right: 217px;
     padding-bottom: 100px;
+    padding-left: 130px;
+    max-width: inherit;
 }
 
 .hero_list-title {
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 39px;
     padding-bottom: 29px;
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
 }
 
 .hero_list-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
     padding-bottom: 40px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .hero_list-btn {
     padding: 14px 18px;
-    font-weight: 400;
+
     font-size: 24px;
+    font-weight: 400;
     line-height: 29px;
-    border: none;
-    background-color: #E62626;
-    border-radius: 50px;
     color: #fff;
+    
+    background-color: #E62626;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
     transition: 0.5s ease;
 }
@@ -131,22 +133,21 @@ header {
     background-color: #881414;;
 }
 
-
-
-
 .main {
     margin: 0 auto;
     width: 100%;
     max-width: 1600px;
     min-width: 1000px;
+    
     text-align: center;
 }
 
 .main-menu_title {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
     margin-bottom: 30px;
+    
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
 }
 
 .main-menu_link {
@@ -154,12 +155,13 @@ header {
 }
 
 .main-title {
-    width: 100%;
-    transition: 0.4s ease;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 43px;
     margin-bottom: 46px;
+    width: 100%;
+    
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43px;
+    transition: 0.4s ease;
 
 }
 
@@ -174,19 +176,19 @@ header {
 .main-menu_items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin: 19px;
-
+    justify-content: space-evenly;
 }
 
 .footer {
+    margin: 0 auto;
+    width: 100%;
     max-width: 1600px;
     min-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
-    background-size: cover;
     text-align: center;
+    
+    background: linear-gradient(180deg, rgba(217,217,217,0) 0%, #EDA61D 100%);
+    background-size: cover;
 }
 
 .footer-list {
@@ -204,8 +206,9 @@ header {
 }
 
 .footer-text {
-    font-weight: 500;
     padding-bottom: 23px;
+    
+    font-weight: 500;
 }
 
 .footer-social_list {
